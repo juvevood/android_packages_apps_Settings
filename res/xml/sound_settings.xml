@@ -86,14 +86,6 @@
         android:order="-138"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
-    <!-- Increasing ring volume -->
-    <com.android.settings.notification.IncreasingRingVolumePreference
-        android:key="increasing_ring_volume"
-        android:icon="@drawable/ring_notif_increasing"
-        android:dependency="increasing_ring"
-        android:order="-137"
-        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
-
     <!-- Also vibrate for calls -->
     <SwitchPreference
         android:key="vibrate_when_ringing"
