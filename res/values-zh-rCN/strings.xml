@@ -4158,4 +4158,33 @@
     <string name="status_bar_double_tap_to_sleep_summary">双击状态栏锁定屏幕</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">关联铃声和通知音量调节</string>
+   <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">唤醒屏幕</string>
+    <string name="wake_when_plugged_or_unplugged_summary">当连接或断开电源时唤醒屏幕</string>
+<!-- Vibrate on plug -->
+    <string name="vibration_on_charge_state_changed_title">插入USB震动</string>
+
+    <!-- Scramble PIN layout on lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">扰乱布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时扰乱PIN布局</string>
+
+    <!-- Title for suggested actions for screen lock -->
+    <string name="suggested_lock_settings_custom_title" product="tablet">保护你的平板</string>
+    <string name="suggested_lock_settings_custom_title" product="device">保护你的设备</string>
+    <string name="suggested_lock_settings_custom_title" product="default">保护你的手机</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">夜晚时亮度降低</string>
+    <string name="night_auto_value_disabled">已禁用</string>
+    <string name="night_auto_value_min">中亮度</string>
+    <string name="night_bright_low">低亮度</string>
+    <string name="night_bright_midlow">中低亮度</string>
+
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">启用电池充电警告</string>
+    <string name="notification_battery_charge_level_title">电池充电警告</string>
+    <string name="notification_battery_charge_level_summary">当电池充电达到指定电量时发出声音</string>
+    <string name="notification_battery_charge_level_seek_bar">电池电量</string>
+    <string name="notification_battery_charge_level_ringtone">响铃</string>
+    <string name="notification_battery_charge_level_silent">静音</string>
 </resources>
