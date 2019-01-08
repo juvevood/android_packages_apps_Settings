@@ -121,12 +121,6 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
-    <com.dirtyunicorns.support.preferences.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_gesture"
-        android:title="@string/status_bar_double_tap_to_sleep_title"
-        android:summary="@string/status_bar_double_tap_to_sleep_summary"
-        android:defaultValue="true" />
-
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
