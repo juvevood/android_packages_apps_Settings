@@ -4187,4 +4187,11 @@
     <string name="notification_battery_charge_level_seek_bar">电池电量</string>
     <string name="notification_battery_charge_level_ringtone">响铃</string>
     <string name="notification_battery_charge_level_silent">静音</string>
+    <!-- Settings categories -->
+    <string name="statusbar_category_title">状态栏</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">状态栏选项</string>
+    <string name="summary_statusbar_tuner">系统界面调谐器</string>
+    <!-- doze_device_settings -->
+    <string name="summary_doze_settings">更多设置</string>
 </resources>

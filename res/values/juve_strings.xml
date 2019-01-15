@@ -22,4 +22,7 @@
     <string name="statusbar_category_title">StatusBar</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <string name="summary_statusbar_tuner">SystemUI tuner</string>
+    <!-- doze_device_settings -->
+    <string name="summary_doze_settings">More settings</string>
 </resources>
