@@ -16,6 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="display_settings_screen"
     android:title="@string/display_settings"
@@ -138,7 +139,8 @@
 
         <Preference
             android:key="doze_device_settings"
-            android:title="@string/ambient_display_screen_title" >
+            android:title="@string/ambient_display_screen_title" 
+            lineage:replacesKey="ambient_display">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="org.lineageos.settings"
                 android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity" />
@@ -164,7 +166,7 @@
             android:title="@string/statusbar_items_title" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.TunerActivity" />
+                android:targetClass="com.android.systemui.tuner.StatusBarTuner" />
         </Preference>
     </PreferenceCategory>
 
