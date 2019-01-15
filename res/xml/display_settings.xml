@@ -137,6 +137,15 @@
             settings:userRestriction="no_ambient_display" />
 
         <Preference
+            android:key="doze_device_settings"
+            android:title="@string/ambient_display_screen_title"
+            android:summary="@string/summary_doze_settings">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="org.lineageos.settings"
+                android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity" />
+        </Preference>
+
+        <Preference
             android:key="ambient_display_custom"
             android:title="@string/ambient_display_screen_title" />
 
@@ -147,6 +156,18 @@
             android:summary="@string/force_ambient_for_media_pref_summary"
             settings:userRestriction="no_ambient_display" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/statusbar_category_title">
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title" 
+            android:summary="@string/summary_statusbar_tuner">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusBarTuner" />
+        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
