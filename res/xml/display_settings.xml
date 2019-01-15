@@ -158,6 +158,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/statusbar_category_title">
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.TunerActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="theme_category"
         android:title="@string/theme_category_title">
 
