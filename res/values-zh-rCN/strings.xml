@@ -4194,4 +4194,14 @@
     <string name="summary_statusbar_tuner">系统界面调谐器</string>
     <!-- doze_device_settings -->
     <string name="summary_doze_settings">更多设置</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
+
+    <!-- Face auto unlock -->
+    <string name="face_auto_unlock_title">自动面部解锁</string>
+    <string name="face_auto_unlock_summary">面部解锁后关闭锁屏</string>
+
+    <!-- Keyguard multiuser switch -->
+    <string name="keyguard_multiuser_switch_title">多用户切换</string>
+    <string name="keyguard_multiuser_switch_summary">在状态栏上显示多用户开关</string>
 </resources>
